@@ -14,7 +14,7 @@ body {
   border: none;
   color: #005fac;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .banner-container {
   display: flex;
@@ -138,3 +138,65 @@ ul li i {
     top:0; 
     margin:30px; 
 }
+footer{
+    background-color: black;
+  
+    width:100%;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.ft-continer{
+    display: flex;
+   
+   width:80%;
+    margin:0 auto;
+}
+.ft-head{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.left-ft{
+    width:50%;
+}
+.left-ft p{
+    margin-bottom: 20px;
+}
+.left-ft span{
+    display:inline-block;
+ margin-bottom: 20px;
+}
+
+.icons{
+    display:flex;
+    gap:20px;
+}
+.icons img{
+   width:47px;
+   height:46px;
+}
+.right-ft{
+    margin-top: 20px;
+    width:50%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+input{
+   border: grey solid 1px;
+   background-color: black;
+   padding: 20px;
+   border-radius: 5px;
+   margin:20px 0 10px;
+}
+input::placeholder {
+    color: white;
+}
+.last-btn{
+    padding:10px 30px;
+    border-radius: 5px;
+    background-color:#005FAC;
+    color:white;
+    border: 0;
+}
+
