@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:wght@400;700;800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.primary-btn {
+  padding: 15px;
+  width: 160px;
+  border-radius: 5px;
+  border: none;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+}
+.banner-container {
+  display: flex;
+  position: relative;
+}
+img {
+  width: 100%;
+}
+.banner-description-conatiner {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding-right: 100px;
+}
+.banner-description {
+  text-align: right;
+}
+h3 {
+  font-size: 65px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.header-p {
+  padding: 20px 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.my-failures {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+.main-img {
+  margin: 0 auto;
+  width: 566.88px;
+}
+.main-img img {
+  width: 100%;
+}
+.failures-description {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 395.96px;
+}
+.header-heding{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #151414;
+}
+
+.failures-description > p {
+  margin-bottom: 20px;
+  color: #444343;
+}
+ul li {
+  list-style: none;
+  color: #444343;
+  margin: 5px;
+}
+ul li i {
+  color: #16d887;
+}
+
+.my-plans {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.my-plans-heading {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.my-plans-items {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+ 
+}
+
+.item {
+  width: 92.96px;
+}
+.item img {
+  width: 100%;
+}
+.call-container {
+  width: 70%;
+  height: 250px;
+  margin: 70px auto;
+  position: relative;
+  border-radius: 5px;
+  
+}
+.call-container .g1 {
+  width: 100%;
+  
+}
+.w {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  
+}
+.par{
+    width:40%;
+}
+ h6{
+  
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.call-container >.par{
+    position: absolute;
+    top:0; 
+    margin:30px; 
+}
